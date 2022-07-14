@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.custom{
+    font-size: 22px;
+    color: darkmagenta;
+    font-family: tahoma;
+    max-width: 300px;
+    
+}
+.custom::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: red;
+    margin-top: 10px;
+}
+.custom::first-letter{
+    color: rgb(23, 161, 161);
+    font-size: 30px;
+}

@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+body{
+    background: url(../images/grape.png) no-repeat right top #FFFAF3;
+}
+
+
+.home{
+    display: inline-block;
+    border-bottom: 3px solid #C08D5D;
+    padding-top: 44px;
+    padding-bottom: 41px;   
+}
+.logo {
+    display: inline-block; 
+   vertical-align: middle;
+}
+nav{
+    display: inline-block;
+    margin-left: 92px;
+    font-family: 'Open Sans', sans-serif;
+  vertical-align: middle;
+}
+nav li{
+    display: inline-block;
+    margin-right: 53px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.active{
+    color: #C08D5D;
+}
+main{
+    padding-top: 121px;
+    padding-bottom: 68px;
+    max-width: 535px;
+}
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 70px;
+    letter-spacing: 0.06em;  
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+h1::after{
+    display: block;
+    content: url(../images/Vector.svg);
+}
+h1 span{
+    display: block;
+    font-size: 50px; 
+}
+h1 span::after{
+    display: inline-block;
+    content: url(../images/logo2.svg);
+    text-transform: none;
+    padding-left: 8px;
+}
+p{
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    padding-bottom: 72px;
+}
+.red{
+    display:inline-block;
+    background-color: #FFFAF3;
+    color: black;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 64px;
+    border: 2px solid #C08D5D;
+    padding-left: 15px;
+}
+.red::after{
+    content: url(../images/Vec.svg);
+    width: 59px;
+    height: 64px;
+    display: inline-block;
+    background-color: #C08D5D;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 11px;
+}
+.mouse{
+    display:block;
+  margin: 40px 523px 0 523px;
+    width: 34px;
+    height: 70px;
+    background-repeat: no-repeat;
+}
